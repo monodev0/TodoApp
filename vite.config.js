@@ -3,7 +3,6 @@ import solid from 'vite-plugin-solid'
 import unocss from 'unocss/vite'
 
 export default defineConfig({
-    base: '/TodoApp/',
     plugins: [
         solid(),
         unocss()
